@@ -1,0 +1,5 @@
+sudo rm CMakeCache.txt
+sudo rm cmake_install.cmake
+sudo rm DisplayImage
+sudo rm Makefile
+sudo rm -R CMakeFiles

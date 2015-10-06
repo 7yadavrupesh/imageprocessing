@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( DisplayImage )
+find_package( OpenCV REQUIRED )
+file(GLOB SOURCE_FILES ./source/*.cpp ./source/*.h)
+add_directory(source)
+add_executable( DisplayImage ${SOURCE_FILES} )
+target_link_libraries( DisplayImage ${OpenCV_LIBS} )
