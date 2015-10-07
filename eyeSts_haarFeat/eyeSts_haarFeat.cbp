@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="eyeSts_haarFeat" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;Unix;" />
+				<Option output="bin/Debug/eyeSts_haarFeat" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option host_application='&quot;/home/naresh/Documents/videosOffice&quot;' />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/eyeSts_haarFeat" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="cvplot.cpp" />
+		<Unit filename="cvplot.h" />
+		<Unit filename="detectEyeFromOwnHaarDetector.cpp" />
+		<Unit filename="detectEyePairFromCroppedFace.cpp" />
+		<Unit filename="faceDetection.cpp" />
+		<Unit filename="findFvClass_Hog_Svm.cpp" />
+		<Unit filename="headers.h" />
+		<Unit filename="hogFvExtactionFromGrayImg.cpp" />
+		<Unit filename="hog_trDataPreparation.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="plot_sample.cpp" />
+		<Unit filename="readImgesFromFolderAndWriteFinalResultIntoTextFile.cpp" />
+		<Unit filename="readVideosFromFolderAndWriteIntoTextFile.cpp" />
+		<Unit filename="test_getClassLabelFromGivenImg.cpp" />
+		<Unit filename="tr_hog_svm.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
